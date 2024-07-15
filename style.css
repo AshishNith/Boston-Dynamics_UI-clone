@@ -127,17 +127,19 @@ section.page2 .one{
     justify-content: center;
 }
 section.page2 .two{
+    margin-top: 20px;
     width: 100%;
     height: 100px;
-    background-color: green;
+    /* background-color: green; */
     display: flex;
     align-items: center;
     justify-content: center;
-}
-section.page2 .two img{
-    width: 100px;
+    gap: 80px;
 }
 
-section.page2 .two 
+
+section.page2 .two img{
+    height:23%;
+}
 
 
