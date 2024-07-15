@@ -197,11 +197,46 @@ section.page3{
     background-size: cover;
     background-repeat: no-repeat; */
     background-image: linear-gradient(to right , #001220,#003C55,#001220);
-
+    display: flex;
+}
+section.page3 .one{
+    width: 50vw;
 }
 section.page3 .one img{
+    width: 60%;
+    margin-left: 300px;
+    margin-top: 350px;
+}
+section.page3 .two{
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+section.page3 .two .up{
+    margin-top: 250px;
+    font-size: 64px;
+    font-weight: 700;
+    color: white;
+    line-height: 76px;
+    width: 50%;
+}
+section.page3 .two .down{
+    margin-top: 50px;
+    font-weight: 400;
+    line-height: 33px;
+    color: white;
     width: 30%;
 }
+
+section.page3 .two .button-animate{
+    font-size: 18px;
+    font-weight:900;
+    color: white;
+    margin-top: 80px;
+}
+
 
 section.page4{
     width: 100%;
