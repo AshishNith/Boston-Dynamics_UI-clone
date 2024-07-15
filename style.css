@@ -12,6 +12,7 @@ html.body{
 
 nav{
     position: fixed;
+    z-index: 10;
     width: 100%;
     height: 80px;
     background-color: rgb(255, 255, 255);
@@ -115,7 +116,8 @@ section.Home .HomeBottom .HomeButton{
 
 section.page2{
     width: 100%;
-    height: 100vh;
+    height: 80vh;
+    position: relative;
     
 }
 section.page2 .one{
@@ -142,4 +144,66 @@ section.page2 .two img{
     height:23%;
 }
 
+section.page2 .three{
+    /* background-color: green; */
+    width: 100%;
+    height: calc(100vh - 80px);
+}
 
+
+section.page2 .three .three-heding{
+    width: 45%;
+    font-size: 64px;
+    font-weight:700 ;
+    line-height: 76px;
+    margin-top: 50px;
+    margin-left: 300px;
+    /* background-color: rgb(51, 0, 255); */
+}
+
+section.page2 .three .three-content{
+    /* background-color: yellow; */
+    color: rgb(119, 119, 119);
+    width: 16.3%;
+    margin-left: 300px;
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 33px;
+}
+
+section.page2 .three .three-button{
+    margin-left: 300px;
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight:900;
+}
+
+section.page2 .page2-img img{
+    position: absolute;
+    width: 45%;
+    top: 50%;
+    left: 40%;
+}
+
+
+
+
+
+
+section.page3{
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(images/page3-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; */
+    background-image: linear-gradient(to right , #001220,#003C55,#001220);
+
+}
+section.page3 .one img{
+    width: 30%;
+}
+
+section.page4{
+    width: 100%;
+    height: 100vh;
+}
