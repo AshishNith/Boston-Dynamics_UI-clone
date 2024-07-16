@@ -1,4 +1,4 @@
-gsap.from(".navbar h1,i,img,.nav-button",{
+gsap.from(".navbar h1,i,img",{
     y:50,
     opacity:0,
     scale:0,
